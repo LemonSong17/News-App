@@ -1,7 +1,7 @@
 {
   "name": "News-App",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a web app that lets users view and leave comments on the latest news. Using Mongoose and Cheerio to scrape news from another site.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -17,5 +17,16 @@
   "bugs": {
     "url": "https://github.com/LemonSong17/News-App/issues"
   },
-  "homepage": "https://github.com/LemonSong17/News-App#readme"
+  "homepage": "https://github.com/LemonSong17/News-App#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cheerio": "^1.0.0-rc.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "logger": "0.0.1",
+    "mongoose": "^5.7.5",
+    "morgan": "^1.9.1",
+    "path": "^0.12.7",
+    "request": "^2.88.0"
+  }
 }
