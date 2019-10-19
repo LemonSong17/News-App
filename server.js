@@ -1,13 +1,13 @@
-var express = require("express");
-var exphbs = require('express-handlebars');
-var bodyParser = require("body-parser");
-var logger = require("morgan");
-var mongoose = require("mongoose");
-var path = require("path");
+const express = require("express");
+const exphbs = require('express-handlebars');
+const bodyParser = require("body-parser");
+const logger = require("morgan");
+const mongoose = require("mongoose");
+const path = require("path");
 require("dotenv").config();
 
-var request = require("request");
-var cheerio = require("cheerio");
+const request = require("request");
+const cheerio = require("cheerio");
 
 // Require all models
 var db = require("./models");
